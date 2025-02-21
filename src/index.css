@@ -99,3 +99,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .hero-shield {
+    @apply w-full h-auto max-w-[800px];
+    filter: drop-shadow(0 0 20px rgba(62, 213, 221, 0.3));
+  }
+
+  .service-card {
+    @apply backdrop-blur-[25px] bg-[rgba(255,255,255,0.03)] hover:bg-[rgba(255,255,255,0.05)] transition-all duration-300;
+  }
+
+  .testimonial-card {
+    @apply backdrop-blur-[25px] bg-[rgba(255,255,255,0.03)] hover:bg-[rgba(255,255,255,0.05)] transition-all duration-300;
+  }
+}
