@@ -1,21 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./components/Header";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Services from "./pages/Services";
 
-const App: React.FC = () => {
+const Header: React.FC = () => {
   return (
-    <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/services" component={Services} />
-      </Switch>
-    </Router>
+    <header className="bg-gray-800 text-white sticky top-0 z-10">
+      <nav className="flex justify-between p-4">
+        <div className="text-lg font-bold">IBI Group</div>
+        <div>
+          <a href="/" className="mr-4">Home</a>
+          <a href="/about" className="mr-4">About</a>
+          <a href="/services">Services</a>
+        </div>
+      </nav>
+    </header>
   );
 };
 
-export default App;
+export default Header;
