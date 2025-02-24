@@ -1,6 +1,5 @@
-
 import React from "react";
-import { Button } from "../ui/Button";
+import { Button } from "../ui/button";
 
 export const Pricing: React.FC = () => {
   return (
@@ -43,7 +42,7 @@ export const Pricing: React.FC = () => {
         ].map((plan) => (
           <div
             key={plan.title}
-            className="backdrop-blur-[25px] bg-[rgba(255,255,255,0.03)] p-8 rounded-2xl"
+            className="backdrop-blur-[25px] bg-[rgba(255,255,255,0.03)] p-8 rounded-2xl transition-transform duration-300 hover:scale-105 hover:shadow-lg"
           >
             <h3 className="text-2xl font-semibold mb-4">{plan.title}</h3>
             <p className="text-4xl font-bold mb-6">{plan.price}<span className="text-base font-normal">/month</span></p>

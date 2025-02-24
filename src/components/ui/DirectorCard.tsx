@@ -1,21 +1,21 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-interface ServiceCardProps {
+interface DirectorCardProps {
   icon: string;
-  title: string;
-  description: string;
+  name: string;
+  role: string;
 }
 
-export const ServiceCard: React.FC<ServiceCardProps> = ({
+export const DirectorCard: React.FC<DirectorCardProps> = ({
   icon,
-  title,
-  description,
+  name,
+  role,
 }) => {
   const images = {
-    "shield-lock": "https://img.icons8.com/color/96/shield--v1.png",
-    "shield-check": "https://img.icons8.com/color/96/security-checked--v1.png",
-    "refresh": "https://img.icons8.com/color/96/refresh--v1.png"
+    "director-icon-1": "https://img.icons8.com/color/96/director-icon-1.png",
+    "director-icon-2": "https://img.icons8.com/color/96/director-icon-2.png",
+    "director-icon-3": "https://img.icons8.com/color/96/director-icon-3.png"
   };
 
   return (
@@ -26,12 +26,12 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
       <div className="w-20 h-20 flex items-center justify-center mb-5 rounded-[40px] bg-[rgba(62,213,221,0.1)]">
         <img 
           src={images[icon as keyof typeof images]} 
-          alt={title}
+          alt={name}
           className="w-12 h-12 object-contain"
         />
       </div>
-      <h3 className="text-[28px] font-semibold mb-[15px]">{title}</h3>
-      <p className="text-base leading-[1.6] opacity-80">{description}</p>
+      <h3 className="text-[28px] font-semibold mb-[15px]">{name}</h3>
+      <p className="text-base leading-[1.6] opacity-80">{role}</p>
     </motion.div>
   );
 };

@@ -1,4 +1,3 @@
-
 import React from "react";
 
 export const Testimonials: React.FC = () => {
@@ -14,6 +13,42 @@ export const Testimonials: React.FC = () => {
         <p className="text-base leading-[1.6] opacity-80 mb-10 mx-auto max-w-[600px]">
           Hear from our satisfied customers about their experience with our security solutions.
         </p>
+      </div>
+      <div className="text-center mb-16">
+        <span className="text-[#3ED5DD] text-[21px] font-semibold mb-2.5 block">
+          CLIENTELE
+        </span>
+        <h2 className="text-[67px] font-semibold leading-[1.2] mb-5 max-md:text-5xl max-sm:text-[28px]">
+          Our Valued Clients
+        </h2>
+        <div className="whitespace-nowrap overflow-hidden">
+          <div className="inline-flex animate-marquee">
+            {[
+              "https://ibigroup.co.in/images/clients/c4.jpg",
+              "https://ibigroup.co.in/images/clients/c3.jpg",
+              "https://ibigroup.co.in/images/clients/c2.jpg",
+              "https://ibigroup.co.in/images/clients/8.jpg",
+              "https://ibigroup.co.in/images/clients/7.jpg",
+              "https://ibigroup.co.in/images/clients/4.jpg",
+              "https://ibigroup.co.in/images/clients/4.jpg",
+              "https://ibigroup.co.in/images/clients/4.jpg",
+              "https://ibigroup.co.in/images/clients/4.jpg",
+              "https://ibigroup.co.in/images/clients/4.jpg",
+              "https://ibigroup.co.in/images/clients/4.jpg",
+              "https://ibigroup.co.in/images/clients/4.jpg",
+              "https://ibigroup.co.in/images/clients/4.jpg",
+              "https://ibigroup.co.in/images/clients/4.jpg",
+            ].map((logo) => (
+              <div key={logo} className="flex justify-center items-center mx-4">
+                <img
+                  src={logo}
+                  alt="Client Logo"
+                  className="h-16 transition duration-300 ease-in-out"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1200px] mx-auto">
