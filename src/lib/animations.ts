@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ReactNode } from 'react';
+import { ReactNode, Ref } from 'react';
 import { HTMLMotionProps } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -25,7 +25,7 @@ export const ScrollReveal = ({ children, ...props }: ScrollRevealProps) => {
 
   return (
     <motion.div
-      ref={ref} // Type the ref correctly here
+      ref={ref as React.Ref<HTMLDivElement>} // Type the ref correctly here
       initial="hidden"
       animate={inView ? 'visible' : 'hidden'}
       variants={fadeIn}

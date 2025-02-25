@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
   return (
@@ -6,9 +7,9 @@ const Header: React.FC = () => {
       <nav className="flex justify-between p-4">
         <div className="text-lg font-bold">IBI Group</div>
         <div>
-          <a href="/" className="mr-4">Home</a>
-          <a href="/about" className="mr-4">About</a>
-          <a href="/services">Services</a>
+          <Link to="/" className="mr-4">Home</Link>
+          <Link to="/about" className="mr-4">About</Link>
+          <Link to="/services">Services</Link>
         </div>
       </nav>
     </header>
