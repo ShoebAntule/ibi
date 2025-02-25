@@ -1,19 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-const Header: React.FC = () => {
+const App: React.FC = () => {
   return (
     <header className="bg-gray-800 text-white sticky top-0 z-10">
       <nav className="flex justify-between p-4">
         <div className="text-lg font-bold">IBI Group</div>
         <div>
-          <Link to="/" className="mr-4">Home</Link>
-          <Link to="/about" className="mr-4">About</Link>
-          <Link to="/services">Services</Link>
+          <a href="/" className="mr-4">Home</a>
+          <a href="/about" className="mr-4">About</a>
+          <a href="/services">Services</a>
         </div>
       </nav>
     </header>
   );
 };
 
-export default Header;
+export default App;
