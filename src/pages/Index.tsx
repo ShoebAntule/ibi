@@ -5,8 +5,10 @@ import { Services } from "../components/sections/Services";
 import { About } from "../components/sections/About";
 import { Goals } from "../components/sections/Goals";
 import { Features } from "../components/sections/Features";
-import { Pricing } from "../components/sections/Pricing";
 import { Testimonials } from "../components/sections/Testimonials";
+import { Link } from "react-router-dom"; // Import Link for navigation
+import { Button } from "../components/ui/button"; // Import Button component
+
 import { Footer } from "../components/layout/Footer";
 
 const Index = () => {
@@ -19,7 +21,6 @@ const Index = () => {
         <About />
         <Goals />
         <Features />
-        <Pricing />
         <Testimonials />
       </main>
       <Footer />

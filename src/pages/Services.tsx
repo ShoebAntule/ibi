@@ -4,24 +4,24 @@ import Header from "../components/layout/Header"; // Import Header component
 
 
 const servicesData = [
-  {
-    title: "Safeguarding and Security Solutions",
-    image: "https://ibigroup.co.in/images/guard.jpg",
-    shortText: "A secure workplace fosters productivity. IBI provides customizable private guarding services...",
-    fullText: "A secure workplace fosters productivity. IBI provides customizable private guarding services to meet your specific needs. Our licensed guard teams are well-trained to cover all security aspects. We value that our guards represent both you and us, so they are uniformed, courteous, informative, and professional."
-  },
+  // {
+  //   title: "Safeguarding and Security Solutions",
+  //   image: "https://ibigroup.co.in/images/guard.jpg",
+  //   shortText: "A secure workplace fosters productivity. IBI provides customizable private guarding services...",
+  //   fullText: "A secure workplace fosters productivity. IBI provides customizable private guarding services to meet your specific needs. Our licensed guard teams are well-trained to cover all security aspects. We value that our guards represent both you and us, so they are uniformed, courteous, informative, and professional."
+  // },
   {
     title: "Investigation & Detection",
     image: "https://ibigroup.co.in/images/inv.jpg",
     shortText: "Our investigators and detectors are trained to see what is not obvious...",
     fullText: "Sir Arthur Conan Doyle, the author of the celebrated detective character Sherlock Holmes quotes, 'There Is Nothing As Deceptive As An Obvious Fact'. Our investigators and detectors are trained to see what is not obvious. Their sense of picking up what is truth and what is fake makes them unparalleled personnel to rely on. They have excellent communication skills, critical thinking capabilities, and problem-solving mastery. They are equipped with knowledge of Law and Order and encouraged to foster honesty."
   },
-  {
-    title: "AI-Enhanced Electronic Security Solutions",
-    image: "https://ibigroup.co.in/images/elec-se.jpg",
-    shortText: "At IBI Group, we redefine electronic security by infusing cutting-edge AI technology...",
-    fullText: "At IBI Group, we redefine electronic security by infusing cutting-edge AI technology into our services. Our AI-based electronic security solutions offer real-time monitoring, predictive insights, and swift response capabilities. By seamlessly integrating AI with our advanced electronic systems, we create a proactive shield against threats. Expect heightened threat detection accuracy, reduced risks, and improved incident management."
-  },
+  // {
+  //   title: "AI-Enhanced Electronic Security Solutions",
+  //   image: "https://ibigroup.co.in/images/elec-se.jpg",
+  //   shortText: "At IBI Group, we redefine electronic security by infusing cutting-edge AI technology...",
+  //   fullText: "At IBI Group, we redefine electronic security by infusing cutting-edge AI technology into our services. Our AI-based electronic security solutions offer real-time monitoring, predictive insights, and swift response capabilities. By seamlessly integrating AI with our advanced electronic systems, we create a proactive shield against threats. Expect heightened threat detection accuracy, reduced risks, and improved incident management."
+  // },
   {
     title: "Risk Consulting",
     image: "https://ibigroup.co.in/images/ris-cons.jpg",

@@ -38,7 +38,7 @@ export const About: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           <Button className="bg-[#3ED5DD] text-white hover:bg-[#35c0c8]">
-            <Link to="/aboutus" className="text-white">
+            <Link to="/about" className="text-white">
               Read More
             </Link>
           </Button>
