@@ -43,7 +43,7 @@ export const Services: React.FC = () => {
   return (
     <section className="px-10 py-20 relative overflow-hidden">
       <motion.div 
-        className="absolute inset-0 bg-[url('https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-center"
+        className="absolute inset-0 bg-[url('https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-center "
         style={{ y }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/90" />
@@ -68,7 +68,7 @@ export const Services: React.FC = () => {
         </motion.div>
 
         <motion.div 
-          className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-[30px] mt-[50px] max-md:grid-cols-[repeat(auto-fit,minmax(250px,1fr))] max-sm:grid-cols-[1fr]"
+          className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-[30px] mt-[50px] max-md:grid-cols-[repeat(auto-fit,minmax(250px,1fr))] max-sm:grid-cols-[1fr] "
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"

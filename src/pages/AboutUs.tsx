@@ -63,7 +63,7 @@ const AboutUs: React.FC = () => {
       <Header /> <div/>
 
         <motion.h1
-          className="text-4xl md:text-5xl font-bold text-white mb-8 p-3 text-center bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"
+          className="text-4xl md:text-5xl font-bold text-white mb-8 p-3 text-center bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent overflow-hidden"
           initial="hidden"
           animate="visible"
           variants={fadeInUp}
@@ -94,7 +94,7 @@ const AboutUs: React.FC = () => {
 
       {/* Animated Founders Section */}
         <motion.h2
-          className="text-4xl md:text-5xl font-bold text-white mb-10 mt-16 text-center bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+          className="text-4xl md:text-5xl font-bold text-white mb-10 mt-16 text-center bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent overflow-hidden"
           initial="hidden"
           animate="visible"
           variants={fadeInUp}
@@ -104,14 +104,14 @@ const AboutUs: React.FC = () => {
 
 
       <motion.div
-        className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 justify-center items-center"
+        className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 justify-center items-center overflow-hidden"
         initial="hidden"
         animate="visible"
         variants={staggerContainer}
       >
         {/* Founder 1 */}
         <motion.div
-          className="relative group w-full md:w-1/3 max-w-sm bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
+          className="relative group w-full md:w-1/3 max-w-sm bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 "
           variants={fadeInUp}
           whileHover={{ scale: 1.05 }}
         >
@@ -131,7 +131,7 @@ const AboutUs: React.FC = () => {
 
         {/* Founder 2 */}
         <motion.div
-          className="relative group w-full md:w-1/3 max-w-sm bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
+          className="relative group w-full md:w-1/3 max-w-sm bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 "
           variants={fadeInUp}
           whileHover={{ scale: 1.05 }}
         >
@@ -154,7 +154,7 @@ const AboutUs: React.FC = () => {
 
       {/* Animated Founders Section */}
       <motion.h2
-          className="text-4xl md:text-5xl font-bold text-white mb-10 mt-16 text-center bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+          className="text-4xl md:text-5xl font-bold text-white mb-10 mt-16 text-center bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent overflow-hidden"
           initial="hidden"
           animate="visible"
           variants={fadeInUp}
@@ -164,7 +164,7 @@ const AboutUs: React.FC = () => {
 
 
       <motion.div
-        className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 justify-center items-center"
+        className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 justify-center items-center overflow-hidden"
         initial="hidden"
         animate="visible"
         variants={staggerContainer}
@@ -233,7 +233,7 @@ const AboutUs: React.FC = () => {
 
       {/* Animated Gallery Section */}
       <motion.h2
-        className="text-4xl md:text-5xl font-bold text-white mb-10 mt-16 text-center bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"
+        className="text-4xl md:text-5xl font-bold text-white mb-10 mt-16 text-center bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent overflow-hidden"
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -252,7 +252,7 @@ const AboutUs: React.FC = () => {
               <motion.img
                 src={`https://ibigroup.co.in/images/fleets/${item}.jpg`}
                 alt={`Gallery Image ${item}`}
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-48 md:h-64 object-cover rounded-lg "
                 whileHover={{ scale: 1.05 }}
               />
             </div>

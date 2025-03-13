@@ -1,0 +1,22 @@
+/* Reset for horizontal lines */
+hr {
+  display: none;
+}
+
+/* Fix for implicit horizontal lines from elements */
+body, div, section, main {
+  overflow-x: hidden;
+}
+
+/* Remove default margins that might cause horizontal scrolling */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Fix for potential tables or other elements causing overflow */
+table, img, iframe {
+  max-width: 100%;
+}
