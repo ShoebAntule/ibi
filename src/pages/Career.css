@@ -1,0 +1,51 @@
+.career-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1e1e1e;
+  color: #c5c6c7;
+  border: 1px solid #45a29e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #45a29e;
+}
+
+.career-container h1, .career-container h2 {
+  color: #66fcf1;
+  text-align: center;
+}
+
+.career-container p {
+  color: #c5c6c7;
+  line-height: 1.6;
+}
+
+.career-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.career-container ul li {
+  background: #0b0c10;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #45a29e;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.career-container ul li:hover {
+  background: #1f2833;
+  transform: scale(1.05);
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dark-bg {
+  background-color: #333;
+  color: #fff;
+}

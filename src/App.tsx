@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import AboutUs from "./pages/AboutUs"; // Updated to use AboutUs component
 import Contact from "./pages/Contact"; // Import Contact component
 import Services from "./pages/Services";
+import Career from "./pages/Career"; // Import Career component
 
 import NotFound from "./pages/NotFound";
 
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/about" element={<AboutUs />} /> {/* Updated to use AboutUs component */}
           <Route path="/contact" element={<Contact />} /> {/* Route for Contact page */}
           <Route path="*" element={<NotFound />} /> {/* Catch-all 404 page */}
+          <Route path="/Career" element={<Career />} /> {/* Route for Career page */}
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

@@ -59,21 +59,17 @@ const staggerContainer = {
 
 const AboutUs: React.FC = () => {
   return (
-    <div className="top-0 z-10 p-10 bg-gray-900">
-      <Header /> {/* Include Header component */}
-      {/* Animated Title */}
+    <div className="top-0 z-10 p-0 bg-gray-900">
+      <Header /> <div/>
 
         <motion.h1
-          className="text-4xl md:text-5xl font-bold text-white mb-8 text-center bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"
+          className="text-4xl md:text-5xl font-bold text-white mb-8 p-3 text-center bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"
           initial="hidden"
           animate="visible"
           variants={fadeInUp}
         >
           About Us
         </motion.h1>
-
-
-      {/* Animated Paragraphs */}
       <motion.div
         className="max-w-3xl mx-auto"
         initial="hidden"

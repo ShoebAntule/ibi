@@ -20,15 +20,15 @@ export const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          congue metus quis accumsan euismod.
+          Guardians of Tomorrow: Securing You through AI-Powered Vigilance
+
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          <Button className="bg-white text-black hover:bg-gray-100">
+          <Button className="bg-grey text-black hover:bg-gray-100">
             Purchase
           </Button>
         </motion.div>

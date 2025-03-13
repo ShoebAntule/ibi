@@ -40,8 +40,8 @@ const Services = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   return (
-      <div className=" p-1 bg-gray-900">
-      <Header /> {/* Include Header component */}
+    <div className="top-0 z-10 p-0 bg-gray-900">
+      <Header /> <div/>
     <div className="p-10 bg-gradient-to-r from-gray-900 to-blue-900 text-white">
       <motion.h1 
         className="text-4xl font-bold mb-10 text-center animate-bounce"
